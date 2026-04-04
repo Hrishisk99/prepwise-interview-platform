@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* LIGHT MODE */
+body {
+  background: #F1F5F9;
+  color: #0F172A;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 25px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #E2E8F0;
+  position: relative;
+}
+
+/* Toggle */
+.theme-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 6px 10px;
+  border: none;
+  background: #E2E8F0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero p {
+  color: #64748B;
+  margin: 10px 0 20px;
+}
+
+/* Button */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background: #38BDF8;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0EA5E9;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Category */
+.category {
+  margin-bottom: 30px;
+}
+
+.category h2 {
+  color: #38BDF8;
+  margin-bottom: 10px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid #E2E8F0;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #FFFFFF;
+  border-top: 1px solid #E2E8F0;
+  color: #64748B;
+}
+
+/* DARK MODE */
+body.dark {
+  background: #020617;
+  color: #E2E8F0;
+}
+
+/* Header */
+body.dark .header {
+  background: #0F172A;
+  border-bottom: 1px solid #1E293B;
+}
+
+/* Cards */
+body.dark .card {
+  background: #0F172A;
+  border: 1px solid #1E293B;
+}
+
+body.dark .card p {
+  color: #94A3B8;
+}
+
+/* Category */
+body.dark .category h2 {
+  color: #38BDF8;
+}
+
+/* Footer */
+body.dark .footer {
+  background: #0F172A;
+  border-top: 1px solid #1E293B;
+}
