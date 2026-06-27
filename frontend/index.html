@@ -1,88 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>PrepWise</title>
 
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
   <!-- CSS -->
   <link rel="stylesheet" href="src/styles/main.css" />
 </head>
+
 <body>
 
-  <!-- Header -->
+  <!-- HEADER -->
   <header class="header">
-    <h1>PrepWise</h1>
-    <p>Practice. Improve. Get Hired.</p>
 
-    <button id="theme-toggle" class="theme-btn">🌙</button>
+    <div>
+      <h1>PrepWise</h1>
+      <p>Practice. Improve. Get Hired.</p>
+    </div>
+
+    <button id="theme-toggle" class="theme-btn">
+      🌙
+    </button>
+
   </header>
 
-  <!-- Hero -->
+  <!-- HERO SECTION -->
   <section class="hero">
-    <h2>Ace Your Interviews with Confidence</h2>
-    <p>Practice real interview questions and strengthen your concepts.</p>
-    <button class="btn">Start Practicing</button>
+
+    <!-- LEFT CONTENT -->
+    <div class="hero-content">
+
+      <span class="tag">
+        🚀 Smart Interview Preparation Platform
+      </span>
+
+      <h2>
+        Crack Technical Interviews with Structured Preparation
+      </h2>
+
+      <p>
+        Prepare smarter with curated frontend interview questions,
+        concept-based learning, and practical resources designed
+        for aspiring developers.
+      </p>
+
+      <div class="hero-buttons">
+
+        <button class="btn">
+          Start Learning
+        </button>
+
+        <button class="btn-secondary">
+          Explore Topics
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE CARDS -->
+    <div class="hero-card">
+
+      <div class="mini-card">
+        <h3>Frontend Preparation</h3>
+        <p>HTML • CSS • JavaScript • React</p>
+      </div>
+
+      <div class="mini-card">
+        <h3>Interview Questions</h3>
+        <p>Practice real-world technical interview questions.</p>
+      </div>
+
+      <div class="mini-card">
+        <h3>Track Progress</h3>
+        <p>Save completed topics and continue learning easily.</p>
+      </div>
+
+    </div>
+
   </section>
 
-  <!-- Content -->
+  <!-- MAIN CONTENT -->
   <main class="container">
 
     <!-- HTML -->
     <section class="category">
+
       <h2>HTML Questions</h2>
 
-      <div class="card">
-        <h3>What is HTML?</h3>
-        <p>HTML structures web pages.</p>
+      <div class="category-grid">
+
+        <div class="card">
+          <h3>What is HTML?</h3>
+          <p>
+            HTML is the standard markup language used to structure webpages.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Semantic HTML</h3>
+          <p>
+            Semantic tags improve accessibility and readability.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Forms in HTML</h3>
+          <p>
+            Forms collect user input through various controls.
+          </p>
+        </div>
+
       </div>
 
-      <div class="card">
-        <h3>Semantic HTML?</h3>
-        <p>Meaningful tags like header, footer.</p>
-      </div>
     </section>
 
     <!-- CSS -->
     <section class="category">
+
       <h2>CSS Questions</h2>
 
-      <div class="card">
-        <h3>Flexbox?</h3>
-        <p>Layout system for alignment.</p>
+      <div class="category-grid">
+
+        <div class="card">
+          <h3>Flexbox</h3>
+          <p>
+            Flexbox helps align and distribute elements efficiently.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Margin vs Padding</h3>
+          <p>
+            Margin creates outer spacing while padding adds inner spacing.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>CSS Grid</h3>
+          <p>
+            CSS Grid enables responsive two-dimensional layouts.
+          </p>
+        </div>
+
       </div>
 
-      <div class="card">
-        <h3>Margin vs Padding?</h3>
-        <p>Outside vs inside spacing.</p>
-      </div>
     </section>
 
-    <!-- JS -->
+    <!-- JAVASCRIPT -->
     <section class="category">
+
       <h2>JavaScript Questions</h2>
 
-      <div class="card">
-        <h3>JavaScript?</h3>
-        <p>Makes web pages interactive.</p>
+      <div class="category-grid">
+
+        <div class="card">
+          <h3>What is JavaScript?</h3>
+          <p>
+            JavaScript adds dynamic functionality to websites.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Closures</h3>
+          <p>
+            Closures allow functions to access outer scoped variables.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>DOM Manipulation</h3>
+          <p>
+            DOM manipulation dynamically updates webpage elements.
+          </p>
+        </div>
+
       </div>
 
-      <div class="card">
-        <h3>Closure?</h3>
-        <p>Function remembering outer scope.</p>
-      </div>
     </section>
 
   </main>
 
-  <!-- Footer -->
+  <!-- FOOTER -->
   <footer class="footer">
-    <p>© 2026 Hrishikesh. Built using HTML, CSS & JavaScript</p>
+    <p>
+      © 2026 Hrishikesh • Built using HTML, CSS & JavaScript
+    </p>
   </footer>
 
+  <!-- SCRIPT -->
   <script src="src/script.js"></script>
+
 </body>
+
 </html>
